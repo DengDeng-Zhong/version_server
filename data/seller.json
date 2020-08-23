@@ -1,31 +1,117 @@
 [{
-"name":"商家1",
-"value":99
-},{
-"name":"商家2",
-"value":80
-},{
-"name":"商家3",
-"value":90
-},{
-"name":"商家4",
-"value":40
-},{
-"name":"商家5",
-"value":77
-},{
-"name":"商家6",
-"value":79
-},{
-"name":"商家7",
-"value":109
-},{
-"name":"商家8",
-"value":69
-},{
-"name":"商家9",
-"value":98
-},{
-"name":"商家10",
-"value":79
-}]
+		"name": "朱福财",
+		"value": 47
+	},
+	{
+		"name": "钟登博",
+		"value": 40
+	},
+	{
+		"name": "吴泽鸿",
+		"value": 32
+	},
+	{
+		"name": "崔开成",
+		"value": 28
+	},
+	{
+		"name": "王童杰",
+		"value": 25
+	},
+	{
+		"name": "潘高远",
+		"value": 23
+	},
+	{
+		"name": "张伟东",
+		"value": 22
+	},
+	{
+		"name": "项锦锋",
+		"value": 20
+	},
+	{
+		"name": "胡新阳",
+		"value": 18
+	},
+	{
+		"name": "吴明昌",
+		"value": 12
+	},
+	{
+		"name": "石龙军",
+		"value": 10
+	},
+	{
+		"name": "乐愿成",
+		"value": 9
+	},
+	{
+		"name": "谭智联",
+		"value": 9
+	},
+	{
+		"name": "陈裕强",
+		"value": 6
+	},
+	{
+		"name": "汤咸通",
+		"value": 6
+	},
+	{
+		"name": "李焯星",
+		"value": 3
+	},
+	{
+		"name": "高锦炎",
+		"value": 3
+	},
+	{
+		"name": "徐啟明",
+		"value": 3
+	},
+	{
+		"name": "李展华",
+		"value": 3
+	},
+	{
+		"name": "胡一鸣",
+		"value": 2
+	},
+	{
+		"name": "陈晶晶",
+		"value": 1
+	},
+	{
+		"name": "宋本义",
+		"value": 1
+	},
+	{
+		"name": "邓益辉",
+		"value": 1
+	},
+	{
+		"name": "严俊森",
+		"value": 1
+	},
+	{
+		"name": "费鸿",
+		"value": 1
+	},
+	{
+		"name": "萧乐禧",
+		"value": 1
+	},
+	{
+		"name": "曾攀峰",
+		"value": 1
+	},
+	{
+		"name": "康少祥",
+		"value": 1
+	},
+	{
+		"name": "朱志杰",
+		"value": 1
+	}
+]
