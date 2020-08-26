@@ -13,21 +13,10 @@ app.use(respHeaderMiddleware)
 // 绑定第三层中间件
 const respDataMiddleware = require('./middleware/koa_response_data')
 app.use(respDataMiddleware)
-//3.绑定端口 30000
+//3.绑定端口 8081
 app.listen(8081)
 
-const WebSocket = require('ws')
-// 创建WebSocket服务端的对象,绑定的端口号是8084
-const wss = new WebSocket.Server({
-  port: 8084
-})
-// 对客户端的连接事件进行监听
-wss.on('connection', client => {
-  console.log('有一个客户端连接进来了..')
-  // 对客户端的连接对象进行message事件的监听
-  // msg: 由客户端发给服务器的数据
-  client.on('message', msg => {
-    console.log('客户端发送数据给服务端的了: '+msg)
-    client.send('hello socket from Server')
-  })
-})
+const webSocketService = require('./service/web_socket_service')
+// 开启服务端的监听, 监听客户端的连接
+// 当某一个客户端连接成功之后, 就会对这个客户端进行message事件的监听
+webSocketService.listen()

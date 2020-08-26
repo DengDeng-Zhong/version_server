@@ -31,7 +31,12 @@
         recv.innerHTML= msg.data
       }
       send.onclick = function(){
-        ws.send('hello Socket from Client')
+      ws.send(JSON.stringify({
+        action: 'themeChange',
+        socketType: 'themeChange',
+        chartName: '',
+        value: 'chalk'
+        }))
       }
     }
   </script>

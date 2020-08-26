@@ -1,6 +1,6 @@
 //处理业务逻辑的中间件,读取某个json文件的数据
 const path = require('path')
-const fileUtils = require('../utils/file_utisl')
+const fileUtils = require('../utils/file_utils')
 module.exports = async (ctx, next) => {
     const url = ctx.request.url                 // /api/seller   ../data/seller.json
     let filePath = url.replace('/api', '')       // /seller

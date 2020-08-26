@@ -1,9 +1,9 @@
 const path = require('path')
 const fileUtils = require('../utils/file_utils')
 const WebSocket = require('ws')
-// 创建WebSocket服务端的对象, 绑定的端口号是9998
+// 创建WebSocket服务端的对象, 绑定的端口号是8084
 const wss = new WebSocket.Server({
-  port: 9998
+  port: 8084
 })
 // 服务端开启了监听
 module.exports.listen = () => {
